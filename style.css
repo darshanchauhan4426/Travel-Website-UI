@@ -1,0 +1,212 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+header {
+    height: 88px;
+    width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+.container {
+    height: 88px;
+    width: 1320px;
+    left: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__logo {
+    height: 44.13px;
+    width: 547px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_img a img{
+    background-image: url('logo-1.svg');
+    height: 32px;
+    width: 167px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header__search {
+    height: 44.13px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__search input {
+    text-align: center;
+    height: 20px;
+    width: 290px;
+    border: none;
+}
+
+.header__right {
+    height: 44px;
+    width: 593.5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.headerDropdown__button {
+    height: 42.13px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Destinations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 42.13px;
+    width: 149.61px;
+}
+
+.Activities {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 42.13px;
+    width: 127.45px;
+}
+
+.USD {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 42.13px;
+    width: 91.86px;
+}
+
+.Sign_up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 42.13px;
+    width: 69px;
+}
+
+.log_in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    width: 83.31px;
+    background-color: #EB662B;
+    border-radius: 200px;
+}
+
+.log_in a {
+    color: white;
+}
+
+.text-main h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 84px;
+    width: 564.12px;
+    top: 308px;
+    left: 678.03px;
+    position: absolute;
+    font-size: 69.73px;
+}
+
+.text-main p {
+    height: 28.13px;
+    width: 629.78px;
+    top: 402px;
+    left: 645.2px;
+    position: absolute;
+    font-size: 14.65px;
+    text-align: center;
+}
+
+.sec-1 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 850px;
+    left: 535px;
+    width: 850px;
+    top: 490.13px;
+    background-color: white;
+}
+
+.searchForm__form {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 693.05px;
+    height: 60px;
+}
+
+.searchFormItem__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 224.36px;
+    height: 50px;
+}
+
+.searchFormItem__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-width: 1px;
+    margin-right: 10px ;
+    border-radius: 10px;
+}
+
+.sec-1 button {
+    width: 136.94px;
+    height: 60px;
+    border-radius: 12px;
+    background-color: #EB662B;
+    color: white;
+    border: none;
+}
+
+.sec-2 {
+    width: 1800px;
+    height: 702.13px;
+    border-radius: 12px;
+}
+
+.sec-2 .bg-img {
+    background-image: url("bg.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 702.13px;
+    width: 1800px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
