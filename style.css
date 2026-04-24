@@ -237,7 +237,6 @@ main {
 .sec-3 .text-area {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .sec-3 .text-area .text-area-box {
@@ -272,6 +271,7 @@ main {
 
 .sec-3 .text-area .text-area-box .area-heading {
     font-weight: 900;
+    margin-top: 10px;
 }
 
 .sec-4 {
@@ -390,4 +390,102 @@ main {
    align-items: center;
    flex-direction: column;
    justify-content: center; 
+}
+
+.sec-5 {
+    height: 940px;
+    width: 1320px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sec-5 .heading-text {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.sec-5 .container {
+    height: 900px;
+    width: 1320px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sec-5 .container .card {
+    height: 388px;
+    width: 300px;
+    border-radius: 12px;
+    background-color: #E7E6E6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sec-5 .container .card .card-img {
+    height: 198px;
+    width: 278px;
+    margin-left: 11px;
+}
+
+.sec-5 .container .card .card-img img {
+    height: 198px;
+    width: 278px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.sec-5 .container .card .card-text-1 {
+    color: #717171;
+    margin-left: 42px;
+}
+
+.sec-5 .container .card .card-text-2 {
+    color: #05073C;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sec-5 .container .card .card-text-3 {
+    color: #05073C;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sec-5 .container .card .card-box {
+    height: 41px;
+    width: 258px;
+    margin-left: 21px;
+    background-color: #E7E6E6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec-5 .container .card .card-box .card-box-price {
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec-5 .container .card .card-box .card-box-price .tag {
+    height: 21px;
+    width: 56px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.sec-5 .container .card .card-round {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 13px;
 }
