@@ -130,6 +130,7 @@ header {
     left: 678.03px;
     position: absolute;
     font-size: 69.73px;
+    z-index: 1;
 }
 
 .text-main p {
@@ -140,6 +141,15 @@ header {
     position: absolute;
     font-size: 14.65px;
     text-align: center;
+    z-index: 1;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1920px;
+    height: 1798.90px;
 }
 
 .sec-1 {
@@ -153,6 +163,7 @@ header {
     width: 850px;
     top: 490.13px;
     background-color: white;
+    z-index: 1;
 }
 
 .searchForm__form {
@@ -201,12 +212,182 @@ header {
 .sec-2 .bg-img {
     background-image: url("bg.svg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 702.13px;
     width: 1800px;
 }
 
-section {
+.sec-3 {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+    width: 1320px;
+    height: 296.38px;
+    margin-top: 100px;
+}
+
+.sec-3 .main-text {
+    height: 45px;
+    width: 267px;
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.sec-3 .text-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec-3 .text-area .text-area-box {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec-3 .text-area .text-area-box .area-img-1 {
+    height: 60px;
+    width: 60px;
+    background-image: url("area-img-1.svg");
+}
+
+.sec-3 .text-area .text-area-box .area-img-2 {
+    height: 60px;
+    width: 60px;
+    background-image: url("area-img-2.svg");
+}
+
+.sec-3 .text-area .text-area-box .area-img-3 {
+    height: 60px;
+    width: 60px;
+    background-image: url("area-img-3.svg");
+}
+
+.sec-3 .text-area .text-area-box .area-img-4 {
+    height: 60px;
+    width: 60px;
+    background-image: url("area-img-4.svg");
+}
+
+.sec-3 .text-area .text-area-box .area-heading {
+    font-weight: 900;
+}
+
+.sec-4 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 1320px;
+    height: 390.25px;
+    margin-top: 100px;
+}
+
+.sec-4 .heading-text {
+    width: 320.92px;
+    height: 45px;
+}
+
+.sec-4 .sub-area {
+    height: 340px;
+    width: 1290px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.sec-4 .sub-area .img-area {
+    height: 200px;
+    width: 1290px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec-4 .sub-area .img-area .img-card {
+    height: 200px;
+    width: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec-4 .sub-area .img-area .img-card .card-img-1 {
+    height: 130px;
+    width: 135px;
+    background-image: url("sce-4-are-img-1.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 130px;
+}
+
+.sec-4 .sub-area .img-area .img-card .card-img-2 {
+    height: 130px;
+    width: 135px;
+    background-image: url("sce-4-are-img-2.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 130px;
+}
+
+.sec-4 .sub-area .img-area .img-card .card-img-3 {
+    height: 130px;
+    width: 135px;
+    background-image: url("sce-4-are-img-3.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 130px;
+}
+
+.sec-4 .sub-area .img-area .img-card .card-img-4 {
+    height: 130px;
+    width: 135px;
+    background-image: url("sce-4-are-img-4.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 130px;
+}
+
+.sec-4 .sub-area .img-area .img-card .card-img-5 {
+    height: 130px;
+    width: 135px;
+    background-image: url("sce-4-are-img-5.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 130px;
+}
+
+.sec-4 .sub-area .img-area .img-card .card-img-6 {
+    height: 130px;
+    width: 135px;
+    background-image: url("sce-4-are-img-6.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 130px;
+}
+
+.sec-4 .sub-area .img-area .img-card .card-img-7 {
+    height: 130px;
+    width: 135px;
+    background-image: url("sce-4-are-img-7.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 130px;
+}
+
+.sec-4 .sub-area .img-area .img-card .card-img-8 {
+    height: 130px;
+    width: 135px;
+    background-image: url("sce-4-are-img-8.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 130px;
+}
+
+.sec-4 .sub-area .img-area .img-card .card-text-area {
+    display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center; 
 }
