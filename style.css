@@ -8,7 +8,7 @@ a {
     color: rgb(0, 0, 0);
 }
 
-header {
+.header {
     height: 88px;
     width: 1920px;
     display: flex;
@@ -146,7 +146,7 @@ header {
     color: #FFFFFF;
 }
 
-main {
+.main {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -404,6 +404,7 @@ main {
 }
 
 .sec-5 .heading-text {
+    margin-left: 25px;
     font-size: 30px;
     font-weight: 900;
 }
@@ -493,4 +494,64 @@ main {
     position: absolute;
     margin-left: 220px;
     margin-top: 13px;
+}
+
+.sec-6 {
+    height: 606px;
+    width: 1530px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.sec-6 .image {
+    height: 606px;
+    width: 750px;
+    border-radius: 12px;
+    background-image: url("sec-6-img.svg");
+    background-size: cover;
+}
+
+.sec-6 .img-curve {
+    background-image: url("sec-6-img-curve.svg");
+    height: 606px;
+    width: 40px;
+    position: absolute;
+}
+
+.sec-6 .text-box {
+    height: 606px;
+    width: 740px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sec-6 .text-box .text-area {
+    margin-left: 90px;
+}
+
+.sec-6 .text-box .text-area .heading-text {
+    height: 156px;
+    width: 366px;
+    font-size: 20px;
+}
+
+.sec-6 .text-box .text-area button {
+    height: 62px;
+    width: 167px;
+    border-radius: 12px;
+    color: white;
+    background-color: #EB662B;
+    border: none;
+    margin-top: 10px;
+}
+
+.footer {
+    margin-top: 1450px;
+    height: 655px;
+    width: 1800px;
+    background-color: #EB662B26;
+    margin-bottom: 0px;
 }
