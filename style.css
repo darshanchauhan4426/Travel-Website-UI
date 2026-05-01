@@ -51,9 +51,10 @@ a {
 
 .header__search input {
     text-align: center;
-    height: 20px;
+    height: 44px;
     width: 290px;
     border: none;
+    border-radius: 12px;
 }
 
 .header__right {
@@ -503,6 +504,7 @@ a {
     align-items: center;
     justify-content: center;
     margin-top: 90px;
+    box-sizing: border-box;
 }
 
 .sec-6 .image {
@@ -511,6 +513,8 @@ a {
     border-radius: 12px;
     background-image: url("sec-6-img.svg");
     background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .sec-6 .img-curve {
@@ -546,6 +550,407 @@ a {
     background-color: #EB662B;
     border: none;
     margin-top: 10px;
+}
+
+.sec-7 {
+    height: 600px;
+    width: 1320px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec-7-heading {
+    color: #05073C;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.sec-7 .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.sec-7 .img-container .block-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.sec-7 .img-container .block-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sec-7 .img-container .block-3 .part-1 img {
+    border-radius: 10px;
+}
+
+.sec-7 .img-container .block-3 .part-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sec-8 {
+    height: 770px;
+    width: 1530px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+
+.sec-8 .sec-8-container {
+    height: 533px;
+    width: 1320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sec-8 .sec-8-container .heading-text {
+    margin-left: 25px;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.sec-8 .sec-8-container .card-container {
+    height: 900px;
+    width: 1320px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sec-8 .sec-8-container .card-container .card {
+    height: 388px;
+    width: 300px;
+    border-radius: 12px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid bisque;
+
+}
+
+.sec-8 .sec-8-container .card-container .card .card-img {
+    height: 198px;
+    width: 278px;
+    margin-left: 11px;
+}
+
+.sec-8 .sec-8-container .card-container .card .card-img img {
+    height: 198px;
+    width: 278px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.sec-8 .sec-8-container .card-container .card .card-text-1 {
+    color: #717171;
+    margin-left: 42px;
+}
+
+.sec-8 .sec-8-container .card-container .card .card-text-2 {
+    color: #05073C;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sec-8 .sec-8-container .card-container .card .card-text-3 {
+    color: #05073C;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sec-8 .sec-8-container .card-container .card .card-box {
+    height: 41px;
+    width: 258px;
+    margin-left: 21px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid bisque;
+}
+
+.sec-8 .sec-8-container .card-container .card .card-box .card-box-price {
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec-8 .sec-8-container .card-container .card .card-box .card-box-price .tag {
+    height: 21px;
+    width: 56px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.sec-8 .sec-8-container .card-container .card .card-round {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 13px;
+}
+
+.sec-9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-9 img {
+    height: 871px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.sec-9-container {
+    height: 610px;
+    width: 1320px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.sec-9-heading {
+    font-size: 40px;
+    font-weight: 700;
+    font-style: bold;
+    text-align: center;
+}
+
+.sec-9-box {
+    height: 505px;
+    width: 630px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.sec-9-box-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-9-img-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-9-img-area img{
+    height: 100px;
+    width: 100px;
+}
+
+.sec-9-img-pattern {
+    position: absolute;
+    height: 46px;
+    width: 46px;
+    margin-left: -88px;
+    margin-top: -73px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-9-img-pattern-bg {
+    height: 46px;
+    width: 46px;
+    background-color: #EB662B;
+    border-radius: 50%;
+}
+
+.sec-9-img-pattern img {
+    height: 12px;
+    width: 16px;
+    position: absolute;
+    z-index: 5;
+}
+
+.sec-9-box-content h2 {
+    color: #EB662B;
+    margin-top: 70px;
+}
+
+.sec-9-box-content .para1 {
+    color: #05073C;
+    font-size: 25px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.sec-9-box-content .para2 {
+    color: #05073C;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.sec-9-box-content .para3 {
+    color: #05073C;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.sec-9-dotted-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sec-9-dotted-area span {
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: #05073C;
+}
+
+.sec-9-dotted-area span:hover {
+    height: 6px;
+    width: 18px;
+    border-radius: 30%;
+    background-color: #05073C;
+}
+
+.sec-10 {
+    height: 514px;
+    width: 1530px;
+    display: flex;
+    align-items: center;
+}
+
+.sec-10-container {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    height: 514px;
+}
+
+.sec-10-block-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 514px;
+    width: 667px;
+    margin-left: 110px;
+    color: #FFFFFF;
+}
+
+.sec-10-block-2 img{
+    height: 514px;
+}
+
+.sec-10-heading-text {
+    height: 105px;
+    width: 365px;
+    font-size: 20px;
+}
+
+.sec-10-para1 {
+    height: 48px;
+    width: 313px;
+    margin-bottom: 20px;
+}
+
+.sec-10-para2 {
+    height: 48px;
+    width: 313px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.sec-10-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sec-10-buttons :nth-child(1) {
+    height: 60px;
+    width: 350px;
+    border-radius: 12px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.sec-10-buttons :nth-child(2) {
+    height: 60px;
+    width: 107px;
+    border-radius: 12px;
+    border: none;
+    text-align: center;
+}
+
+.travel-articles {
+    height: 530px;
+    width: 1320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 70px;
+}
+
+.travel-articles-heading {
+    margin-left: 20px;
+}
+
+.travel-articles-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.travel-articles-card {
+    width: 410px;
+    height: auto;
+}
+
+.travel-articles-card-detail {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    color: #05073C;
+    font-size: 13px;
+    gap: 5px;
+}
+
+.travel-articles-card-description {
+    height: 52px;
+    width: 366px;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .footer {
@@ -651,4 +1056,9 @@ a {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+
+input :hover {
+    border: 1px solid black;
 }
